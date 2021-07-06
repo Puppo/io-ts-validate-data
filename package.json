@@ -1,0 +1,20 @@
+{
+  "name": "io-ts-validate-data",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Puppo/io-ts-validate-data",
+  "author": "Luca Del Puppo <Puppo@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "serve": "node dist/index.js"
+  },
+  "dependencies": {
+    "fp-ts": "^2.10.5",
+    "io-ts": "^2.2.16",
+    "io-ts-reporters": "^1.2.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  }
+}
