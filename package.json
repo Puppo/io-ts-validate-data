@@ -6,13 +6,20 @@
   "author": "Luca Del Puppo <Puppo@users.noreply.github.com>",
   "license": "MIT",
   "scripts": {
+    "clean": "tsc --build --clean",
+    "prebuild": "npm run clean",
     "build": "tsc",
     "serve": "node dist/index.js"
   },
   "dependencies": {
+    "@types/express": "^4.17.13",
+    "express": "^4.17.1",
     "fp-ts": "^2.10.5",
     "io-ts": "^2.2.16",
-    "io-ts-reporters": "^1.2.2"
+    "io-ts-reporters": "^1.2.2",
+    "io-ts-types": "^0.5.16",
+    "monocle-ts": "^2.3.11",
+    "newtype-ts": "^0.3.4"
   },
   "devDependencies": {
     "typescript": "^4.3.5"
